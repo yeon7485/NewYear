@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Song+Myung&family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2021년 신년 운세!</title>
+    <style>
+        * {
+            font-family: 'Song Myung', serif;
+        }
+
+        .mytitle {
+            color: darkred;
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+
+        .mytitle>h1 {
+            font-size: 56px;
+            margin-bottom: 0;
+        }
+
+        body {
+            background-color: ivory;
+            background-image: url('https://new-year.spartacodingclub.kr/images/pattern.png');
+            background-position: 600px 100px;
+            background-repeat: no-repeat;
+        }
+
+        .rtans {
+            /* 원 배치 */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            flex-wrap: wrap;
+            /* 가로 길이만큼만 알맞게 원이 들어감 */
+            width: 1200px;
+            /* 한 줄에 최대 6개가 들어가게 너비 맞춤*/
+            margin: auto;
+            /* 영역을 가운데로 */
+        }
+
+        .rtans>a {
+            /* 십이지 르탄이들 */
+            display: block;
+            width: 150px;
+            height: 150px;
+            border: solid 3px darkred;
+            border-radius: 150px;
+            background-color: white;
+            box-shadow: 0px 0px 10px 0px darkred;
+            margin: 10px;
+            /* 배경 이미지가 원에 딱 맞게 */
+            background-size: cover;
+            background-position: center;
+            /* 글자 설정 */
+            color: white;
+            font-size: 20px;
+            text-decoration: none; /* 글자 아래줄 없애기 */
+            text-align: center;
+        }
+
+        .rtans > a:hover {
+            background-color: darkred;
+        }
+
+
+        /* 원 배경에 이미지 넣기 */
+        .rtan1 {
+            background-image: url('https://new-year.spartacodingclub.kr/images/yearS1.png');
+        }
+
+        .rtan2 {
+            background-image: url('https://new-year.spartacodingclub.kr/images/yearS2.png');
+        }
+
+        .rtan3 {
+            background-image: url('https://new-year.spartacodingclub.kr/images/yearS3.png');
+        }
+
+        .rtan4 {
+            background-image: url('https://new-year.spartacodingclub.kr/images/yearS4.png');
+        }
+
+        .rtan5 {
+            background-image: url('https://new-year.spartacodingclub.kr/images/yearS5.png');
+        }
+
+        .rtan6 {
+            background-image: url('https://new-year.spartacodingclub.kr/images/yearS6.png');
+        }
+
+        .rtan7 {
+            background-image: url('https://new-year.spartacodingclub.kr/images/yearS7.png');
+        }
+
+        .rtan8 {
+            background-image: url('https://new-year.spartacodingclub.kr/images/yearS8.png');
+        }
+
+        .rtan9 {
+            background-image: url('https://new-year.spartacodingclub.kr/images/yearS9.png');
+        }
+
+        .rtan10 {
+            background-image: url('https://new-year.spartacodingclub.kr/images/yearS10.png');
+        }
+
+        .rtan11 {
+            background-image: url('https://new-year.spartacodingclub.kr/images/yearS11.png');
+        }
+
+        .rtan12 {
+            background-image: url('https://new-year.spartacodingclub.kr/images/yearS12.png');
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mytitle">
+        <h1>2021년 신년 운세</h1>
+        <h2>by 세연 / 믿거나 말거나 😝</h2>
+    </div>
+
+    <div class="rtans">
+        <a class="rtan1" href="result.html">쥐</a>
+        <a class="rtan2" href="#">소</a>
+        <a class="rtan3" href="#">호랑이</a>
+        <a class="rtan4" href="#">토끼</a>
+        <a class="rtan5" href="#">용</a>
+        <a class="rtan6" href="#">뱀</a>
+        <a class="rtan7" href="#">말</a>
+        <a class="rtan8" href="#">양</a>
+        <a class="rtan9" href="#">원숭이</a>
+        <a class="rtan10" href="#">닭</a>
+        <a class="rtan11" href="#">개</a>
+        <a class="rtan12" href="#">돼지</a>
+    </div>
+</body>
+
+</html>
